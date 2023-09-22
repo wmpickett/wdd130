@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 :root {
     --primary-color: #2b2927;
@@ -5,8 +6,8 @@
     --accent1-color: #8ECAE6;
     --accent2-color: #FFB703;
 
-    --heading-font: 'mooli', serif;
-    --paragraph-font: 'open sans', serif;
+    --heading-font: 'mooli', sans-serif;
+    --paragraph-font: 'open sans', sans-serif;
 
     --nav-background-color: #;
     --nav-link-color: #;
