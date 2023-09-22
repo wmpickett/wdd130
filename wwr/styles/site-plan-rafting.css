@@ -9,10 +9,10 @@
     --heading-font: 'mooli', sans-serif;
     --paragraph-font: 'open sans', sans-serif;
 
-    --nav-background-color: #;
-    --nav-link-color: #;
-    --nav-hover-link-color: #;
-    --nav-hover-background-color: #;
+    --nav-background-color: #FFB703;
+    --nav-link-color: #2b2927;
+    --nav-hover-link-color: #d8dadb;
+    --nav-hover-background-color: #219EBC;
 }
 body {
    font-family: var(--paragraph-font);
