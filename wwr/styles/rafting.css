@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+:root {
+    --primary-color: #2b2927;
+    --secondary-color: #282b5b;
+    --accent1-color: #fca311;
+    --accent2-color: #748ccc;
+    --accent3-color: #ffffff; 
+
+    --heading-font: 'mooli', sans-serif;
+    --paragraph-font: 'open sans', sans-serif;
+
+    --heading-font-color:var(--primary-color);
+    --paragraph-font-color:var(--secondary-color);
+
+    --nav-background-color: #fca311;
+    --nav-link-color: #282b5b;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #748ccc;
+}
+body {
+    font-family: var(--paragraph-font);
+    margin: 20px;
+    padding: 20px;   
+ }
+ h1, h2, h3, h4, h5, h6 {
+     font-family: var(--heading-font);
+     color: var(--primary-color);
+ }
+ header {
+     padding: 20px;
+     background-color: var(--accent1-color);
+ }
+ p {
+     padding: 25px;
+     color: var(--secondary-color);
+ }
+ footer {
+    font-family: var(--heading-font);
+ }
+ a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+ }
+ a:hover {
+    color: var(--nav-hover-link-color);
+ }
+ .hero {
+    position: relative;
+    width: 100%;
+ }
+ article {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+}
+ .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+h1 {
+    position: absolute;
+    top: 80px;
+    left: 440px;
+    color: var(--accent3-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    opacity: 0.8;
+ }
+ .nav-links {
+    list-style: none;
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0; 
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;  
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
