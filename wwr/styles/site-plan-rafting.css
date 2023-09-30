@@ -10,7 +10,7 @@
     --heading-font: 'mooli', sans-serif;
     --paragraph-font: 'open sans', sans-serif;
 
-    --heading-font-color:var(--primary-color);
+    --heading-font-color:var(--accent1-color);
     --paragraph-font-color:var(--secondary-color);
 
     --nav-background-color: #fca311;
@@ -25,7 +25,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color)
 }
 header {
     padding: 20px;
