@@ -105,11 +105,9 @@ footer {
     justify-content: space-around; 
     padding: 0; 
 }
-
 .nav-links li {
     margin: 0;
 }
-
 .nav-links li a {
     text-decoration: none;  
     padding: 10px 20px; 
