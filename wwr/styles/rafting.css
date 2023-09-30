@@ -56,12 +56,41 @@ body {
 h1 {
     position: absolute;
     top: 80px;
-    left: 440px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--accent3-color);
     background-color: var(--secondary-color);
     padding: 10px;
     opacity: 0.8;
  }
+ article {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--accent3-color);
+    padding: 20px;
+    text-align: start;
+    opacity: 0.8;
+ }
+article img {
+    position: relative;
+    float: right;
+    width: 200px;
+    height: 200px;
+    left: 5px;
+    top: 8px;
+}
+footer {
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+    text-align: center;
+    padding: 10px 0;
+}
+.sociallinks img {
+    width: 30px;
+    margin: 0 10px;
+}
  .nav-links {
     list-style: none;
     display: flex; 
@@ -78,4 +107,3 @@ h1 {
     padding: 10px 20px; 
     border-radius: 5px; 
 }
-
