@@ -31,6 +31,10 @@ body {
     font-family: var(--heading-font);
     color: var(--accent1-color);
  }
+ section img {
+    display: block;
+    margin-bottom: 10px;
+}
  header {
      padding: 20px;
      background-color: var(--accent1-color);
