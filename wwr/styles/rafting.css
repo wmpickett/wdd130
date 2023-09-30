@@ -27,6 +27,10 @@ body {
      font-family: var(--heading-font);
      color: var(--primary-color);
  }
+ h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+ }
  header {
      padding: 20px;
      background-color: var(--accent1-color);
