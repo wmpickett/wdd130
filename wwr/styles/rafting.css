@@ -68,6 +68,8 @@ h1 {
     transform: translate(-50%, -50%);
     color: var(--accent3-color);
     background-color: var(--secondary-color);
+    width: 98%;
+    text-align: center;
     padding: 10px;
     opacity: 0.8;
  }
