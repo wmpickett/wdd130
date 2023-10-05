@@ -91,10 +91,30 @@ footer {
     text-align: center;
     padding: 10px 0;
     font-family: var(--heading-font);
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer {
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+    text-align: center;
+    padding: 10px 0;
+    font-family: var(--heading-font);
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-end; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+.sociallinks {
+    display: flex;
+    gap: 10px;
 }
 .sociallinks img {
     width: 30px;
-    margin: 0 10px;
+    height: 30px;
 }
 .header-container {
     display: flex;
