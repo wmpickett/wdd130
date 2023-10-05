@@ -170,7 +170,7 @@ header img {
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1200px; /* Set a maximum width to center the content and limit the width on larger screens */
+    max-width: 1200px; 
 }
 .adventure-images figure {
     display: flex;
@@ -179,16 +179,16 @@ header img {
     margin: 10px;
     max-width: 220px;
     width: 100%;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 .adventure-images img {
     width: 100%;
     height: auto;
 }
 .adventure-images figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+    font: var(--paragraph-font);
     padding: 5px;
     text-align: center;
 }
