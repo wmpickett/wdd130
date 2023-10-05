@@ -173,7 +173,7 @@ header img {
     max-width: 1200px; 
 }
 .adventure-images figure {
-    display: flex;
+    display: flex; /* change the figure box names */
     flex-direction: column;
     padding: 10px;
     margin: 10px;
