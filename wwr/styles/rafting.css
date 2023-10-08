@@ -170,6 +170,7 @@ header img {
 }
 .history {
 text-align: center;
+color: var(--accent3-color);
 }
 .adventure {
     text-align: center;
