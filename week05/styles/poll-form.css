@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+:root {
+    --primary-color: #fdf0d5;
+    --secondary-color: #003049;
+    --accent1-color: #669bbc;
+    --accent2-color: #c1121f;
+    --accent3-color: #780000; 
+
+    --heading-font: 'mooli', sans-serif;
+    --paragraph-font: 'open sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+header {
+    margin: 0 auto;
+    width: 750px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.7em;
+    color: var(--accent1-color);
+    text-align: center;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+}
+fieldset {
+   display: grid;
+   grid-gap: 0.5rem; 
+   margin: 1rem;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: var(--accent3-color);
+    font-size: 1.1rem;
+}
+label, input, button, select, textarea {
+    font-family: var(--heading-font);
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .8rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: #05f805;
+}
+footer {
+    color: var(--accent1-color);
+    margin: 1rem auto 0;
+    width: 650px;
+    font: var(--paragraph-font);
+    text-align: center;
+    font-size: large;
+    border-top: 1px solid var(--accent2-color);
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0,5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
