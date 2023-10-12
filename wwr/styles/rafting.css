@@ -124,6 +124,13 @@ footer {
     background-color: var(--accent1-color);
     padding: 20px;
 }
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 .nav-links ul {
     list-style: none;
     display: flex;
