@@ -263,7 +263,7 @@ color: var(--accent3-color);
 }
 .contact-form button {
     background-color: var(--accent1-color);
-    color: var(--accent3-color);
+    color: var(--primary-color);
     padding: 10px 60px;
     border: none;
     border-radius: 5px;
