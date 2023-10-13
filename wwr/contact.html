@@ -55,15 +55,19 @@
                 <input type="text" id="name" name="name" required>
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" placeholder="Ex: Blank@gmail.com" required>
-                <label for="purpose">Purpose:</label>
-                <select id="purpose" name="purpose" required>
-                    <option value="" disabled selected>Select an option</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
-                    <option value="suggestion">Employee Recognition</option>
-                    <option value="suggestion">Other: &#40Please Specify&#41</option>
-                </select>
+                <label>Purpose:</label>
+                <div>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="recognition">Employee of the Month Vote</label>
+                    <input type="radio" id="recognition" name="purpose" value="Employee Recognition">
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="purpose" value="Other">
+                </div>
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
                 <label>
