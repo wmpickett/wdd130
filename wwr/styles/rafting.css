@@ -248,9 +248,15 @@ color: var(--accent3-color);
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+    text-align: center;
+    padding: 20px;
+    font-family: var(--heading-font);
+    border-radius: 10px;
 }
 .contact-form input, .contact-form textarea, .contact-form select {
-    width: 100%;
+    width: 98%;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid var(--accent1-color);
@@ -259,10 +265,10 @@ color: var(--accent3-color);
 .contact-form label {
     display: block;
     margin-bottom: 10px;
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 .contact-form button {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: var(--primary-color);
     padding: 10px 60px;
     border: none;
