@@ -27,6 +27,13 @@ body {
      font-family: var(--heading-font);
      color: var(--primary-color);
  }
+ .contact-h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    background: none;
+    position: relative;
+    top: 70px;
+ }
  h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
