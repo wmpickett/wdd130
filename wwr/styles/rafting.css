@@ -55,6 +55,10 @@ body {
     width: 100%;
     height: auto;
  }
+ .up-quote {
+    width: 90%;
+    text-align: center;
+ }
 h1 {
     position: absolute;
     top: 80px;
