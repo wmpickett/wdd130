@@ -58,6 +58,10 @@ body {
  .up-quote {
     width: 90%;
     text-align: center;
+    top: 80%;
+    font-family: var(--heading-font);
+    font-size: 1.6rem;
+    padding: 8px;
  }
 h1 {
     position: absolute;
@@ -266,7 +270,7 @@ color: var(--accent3-color);
     cursor: pointer;
 }
 .contact-form button:hover {
-    background-color: var(--nav-hover-background-color);
+    background-color: #00ff0d;
 }
 .contact-info {
     color: var(--accent1-color);
