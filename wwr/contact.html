@@ -39,41 +39,38 @@
             </div>
             <div class="employee-profiles">
                 <div class="employee">
-                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <img src="images/employee-derek.jpg" alt="Employee 1">
                     <p>Derek Kent<br>Adventure Guide</p>
                 </div>
                 <div class="employee">
-                    <img src="images/employee2.jpg" alt="Employee 2">
-                    <p>Josh Newton<br>River Expert</p>
+                    <img src="images/employee-josh.jpg" alt="Employee 2">
+                    <p>Josh Newton<br>Safety Coordinator</p>
                 </div>
                 <div class="employee">
-                    <img src="images/employee3.jpg" alt="Employee 3">
-                    <p>Samantha Jordan<br>Outdoor Enthusiast</p>
+                    <img src="images/employee-samantha.jpg" alt="Employee 3">
+                    <p>Samantha Jordan<br>Adventure Guide</p>
                 </div>
             </div>
             <form class="contact-form">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
-            
                 <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-            
-                <label for="purpose">Purpose of Message:</label>
+                <input type="email" id="email" name="email" placeholder="Ex: Blank@gmail.com" required>
+                <label for="purpose">Topic:</label>
                 <select id="purpose" name="purpose" required>
                     <option value="" disabled selected>Select an option</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
+                    <option value="general">General Question</option>
+                    <option value="reservation">Reservation</option>
+                    <option value="suggestion">Concern</option>
+                    <option value="suggestion">Employee Recognition</option>
+                    <option value="suggestion">Other: &#40Please Specify&#41</option>
                 </select>
-            
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-            
                 <label>
-                    <input type="checkbox" name="subscribe" value="yes">
                     Please subscribe me to the monthly newsletter
+                    <input type="checkbox" name="subscribe" value="yes">
                 </label>
-            
                 <button type="submit">Submit</button>
             </form>
         </section>

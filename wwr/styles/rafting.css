@@ -271,3 +271,6 @@ color: var(--accent3-color);
 .contact-info {
     color: var(--accent1-color);
 }
+.employee p {
+    color: var(--accent1-color);
+}
