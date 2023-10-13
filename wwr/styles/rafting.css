@@ -212,3 +212,62 @@ color: var(--accent3-color);
     padding: 5px;
     text-align: center;
 }
+.contact-section {
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    text-align: center;
+    padding: 20px;
+    font-family: var(--heading-font);
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--accent1-color);
+}
+
+.contact-form button {
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+.contact-info {
+    color: var(--accent1-color);
+}

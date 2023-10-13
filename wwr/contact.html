@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>White Water Adventures, Contact us</title>
-    <meta name="description" content="Wyatt Pickett, wdd130, wwr, contact us">
+    <title>White Water Adventures, Contact us Page</title>
+    <meta name="description" content="Contact White Water Adventures for inquiries, reservations, and suggestions. Explore the best rafting experience with us.">
     <meta name="author" content="Wyatt Pickett">
     <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - White Water Adventures</title>
 </head>
 <body>
     <header class="header-container">
@@ -27,40 +28,55 @@
             <img src="images/hero-image.jpg" alt="Hero image">
             <h1>White Water Adventures</h1>
         </div>
-            <article>
-                <img src="images/happy-client.png" alt="Happy Client">
-                <p>Our mission at White Water Adventures is to promote a deep and lasting connection between individuals and the awe-inspiring force of nature. We believe that our planet's wild beauty has the unique potential to stimulate the soul, develop relationships, and instill a feeling of adventure in all of us. Our objective is to create remarkable outdoor experiences that fulfill the thrill-seeker in all of us and foster a deep appreciation for the natural world.</p>
-            </article>
-            <section class="section1">
-                <img src="images/history-rafting.jpg" alt="Old rafts by water">
-                <h2 class="history">History</h2>
-                <p class="history-p">Our long history at White Water Adventures began with a passion for the outdoors and adventure in the 1900's. From our humble beginnings as a small group of outdoor enthusiasts, we have become a premiere family owned and operated rafting experience. Over the years, we have worked tirelessly to craft unique adventures for adventure seekers of all ages, allowing all to forge the same deep connections with nature that all of us here at White Water Adventures already have and making memories that will last a lifetime along the way. We are commited to giving all customers a world class experience, with satisfaction GURANTEED! We put pride into our work, we have the same dedication that our grandparents did.</p>
-            </section>
-            <section class="section2">
-                <h2 class="adventure">Adventure Awaits You!</h2>
-                <div class="adventure-images">
-                    <figure>
-                    <img src="images/intense-rafting.jpg" alt="Intense Rafting">
-                    <figcaption>Intense Rafting</figcaption>
-                    </figure>
-                <figure>
-                    <img src="images/family-rafting.jpg" alt="Family Rafting">
-                    <figcaption>Family Rafting</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/in-the-rapids.jpg" alt="In the rapids">
-                    <figcaption>In the rapids</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/all-ages.jpg" alt="All Ages">
-                    <figcaption>Fun for all ages!</figcaption>   
-            </figure>
-            <figure>
-                <img src="images/group-effort.jpg" alt="Group Effort">
-                <figcaption>Group Effort</figcaption>
-            </figure>
-        </div>
-    </section>
+        <article>
+            <p>"Adventure is out there"-Up</p>
+        </article>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p class="contact-info">123 Colorado Avenue<br>Grand Junction, CO 81501<br>Phone: 111-111-1111<br>Email: whitewateradventures@gmail.com</p>
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92703.48703380465!2d-114.20733561861252!3d34.22168163803992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697135157988!5m2!1sen!2sus" width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <div class="employee-profiles">
+                <div class="employee">
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <p>John Doe<br>Adventure Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <p>Jane Smith<br>River Expert</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <p>Mike Johnson<br>Outdoor Enthusiast</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="purpose">Purpose of Message:</label>
+                <select id="purpose" name="purpose" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question</option>
+                    <option value="suggestion">Website Suggestion</option>
+                </select>
+            
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>©️2023 | White Water Adventures | Wyatt Pickett</p>
