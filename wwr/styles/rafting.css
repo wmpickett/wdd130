@@ -275,8 +275,8 @@ color: var(--accent3-color);
     color: var(--secondary-color);
 }
 .contact-form button {
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     padding: 10px 60px;
     border: none;
     border-radius: 5px;
@@ -284,6 +284,7 @@ color: var(--accent3-color);
 }
 .contact-form button:hover {
     background-color: #00ff0d;
+    color: var(--primary-color);
 }
 .contact-info {
     color: var(--accent1-color);
