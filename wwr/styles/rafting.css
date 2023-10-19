@@ -335,6 +335,7 @@ color: var(--accent3-color);
 }
 .trip-table tbody {
     background-color: var(--primary-color);
+    color: var(--accent3-color);
 }
 .cta-button {
     text-align: center;
@@ -352,12 +353,4 @@ color: var(--accent3-color);
 .cta-button a:hover {
     background-color: var(--accent2-color);
     color: var(--accent3-color);
-}.trips-links {
-    color: var(--accent3-color);
-    text-decoration: none;
-}
-
-.trips-links:hover {
-    color: var(--accent1-color);
-    text-decoration: underline;
 }
