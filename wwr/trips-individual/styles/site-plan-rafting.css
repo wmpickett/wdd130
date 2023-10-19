@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+:root {
+    --primary-color: #2b2927;
+    --secondary-color: #282b5b;
+    --accent1-color: #fca311;
+    --accent2-color: #748ccc;
+    --accent3-color: #ffffff; 
+
+    --heading-font: 'mooli', sans-serif;
+    --paragraph-font: 'open sans', sans-serif;
+
+    --heading-font-color:var(--accent1-color);
+    --paragraph-font-color:var(--secondary-color);
+
+    --nav-background-color: #fca311;
+    --nav-link-color: #282b5b;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #748ccc;
+}
+body {
+   font-family: var(--paragraph-font);
+   max-width: 960px;
+   padding: 20px; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+    color: var(--secondary-color);
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+}
