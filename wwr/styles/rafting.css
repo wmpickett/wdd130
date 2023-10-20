@@ -183,7 +183,7 @@ footer {
     margin-right: 20px;
 }
 .history-p {
-    color: var(--accent3-color); /* adjust color later on words History header */
+    color: var(--accent3-color); 
 }
 .history {
 text-align: center;
@@ -193,7 +193,7 @@ color: var(--accent3-color);
     text-align: center;
 }
   .section2 {
-    background-color: var(--primary-color); /* adjust colors */
+    background-color: var(--primary-color); 
     color: var(--accent3-color);
     text-align: center;
     padding: 20px;
@@ -208,7 +208,7 @@ color: var(--accent3-color);
     max-width: 1200px; 
 }
 .adventure-images figure {
-    display: flex; /* change the figure box names */
+    display: flex; 
     flex-direction: column;
     padding: 10px;
     margin: 10px;
@@ -362,6 +362,7 @@ color: var(--accent3-color);
 .cta-button a:hover {
     background-color: var(--accent2-color);
     color: var(--accent3-color);
+    transition: background-color 0.5s ease;
 }
 .trip-description {
     width: 30%;
