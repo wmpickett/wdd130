@@ -513,3 +513,43 @@ transition: background-color 0.5s ease;
     background-color: var(--primary-color);
     transition: background-color 0.5s ease;
 }
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropdown-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color: var(--accent3-color);
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+   display: block; 
+}
+.dropdown-menu li {
+   padding: 10px;
+}
+.dropdown-menu li:hover {
+   background-color: var(--primary-color);
+} .dropdown .dropdown-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color: var(--accent1-color);
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+.dropdown .dropdown-menu li {
+   padding: 10px;
+}
+.dropdown .dropdown-menu li:hover {
+   background-color: var(--primary-color);
+   color: var(--accent1-color);
+}
