@@ -490,3 +490,8 @@ main {
     background-color: var(--secondary-color);
     color: var(--accent3-color);
 }
+.newsletter-form button:hover {
+background-color: var(--primary-color);
+color: var(--accent1-color);
+transition: background-color 0.5s ease;
+}
