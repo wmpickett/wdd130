@@ -458,3 +458,35 @@ main {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+.cta-button {
+    text-align: center;
+    margin-top: 20px;
+ }
+ .cta-button a {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+    padding: 15px 100px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+ }
+ .cta-button a:hover {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    transition: background-color 0.5s ease;
+ }
+ .left-column {
+    font-family: var(--heading-font);
+ }
+ .right-column {
+    font-family: var(--heading-font);
+ }
+.newsletter-home {
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+}
