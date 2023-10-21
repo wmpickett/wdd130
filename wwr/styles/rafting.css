@@ -17,6 +17,7 @@
 }
 body {
     font-family: var(--paragraph-font);
+    background-color: var(--primary-color);
     margin: 20px;
     padding: 20px;  
 }
@@ -511,7 +512,4 @@ transition: background-color 0.5s ease;
 .read-more:hover {
     background-color: var(--primary-color);
     transition: background-color 0.5s ease;
-}
-.homepage-body {
-   background-color: var(--primary-color);
 }
