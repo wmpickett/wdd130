@@ -512,3 +512,6 @@ transition: background-color 0.5s ease;
     background-color: var(--primary-color);
     transition: background-color 0.5s ease;
 }
+.homepage-body {
+   background-color: var(--primary-color);
+}
