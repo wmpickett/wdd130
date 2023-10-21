@@ -420,9 +420,11 @@ main {
     padding: 20px;
     background-color: var(--accent1-color);
     border-radius: 10px;
+    font-family: var(--heading-font);
 }
 .right-column {
     width: 45%;
+    font-family: var(--heading-font);
 }
 .newsletter-form {
     display: flex;
@@ -476,12 +478,6 @@ main {
     color: var(--accent1-color);
     transition: background-color 0.5s ease;
  }
- .left-column {
-    font-family: var(--heading-font);
- }
- .right-column {
-    font-family: var(--heading-font);
- }
 .newsletter-home {
     text-align: center;
     font-size: larger;
@@ -494,4 +490,25 @@ main {
 background-color: var(--primary-color);
 color: var(--accent1-color);
 transition: background-color 0.5s ease;
+}
+.right-column {
+    position: relative;
+}
+.read-more {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+.read-more a {
+    color: var(--accent3-color);
+}
+.read-more a:hover {
+    color: var(--accent1-color);
+    transition: background-color 0.5s ease;
+}
+.read-more:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.5s ease;
 }
