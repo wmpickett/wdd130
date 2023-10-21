@@ -405,7 +405,7 @@ main {
 .full-width-banner {
     height: auto; 
     text-align: center;
-    color: #fff;
+    color: var(--accent3-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -418,7 +418,7 @@ main {
 .left-column {
     width: 45%;
     padding: 20px;
-    background-color: #fca311;
+    background-color: var(--accent1-color);
     border-radius: 10px;
 }
 .right-column {
@@ -434,8 +434,8 @@ main {
     margin-bottom: 10px;
 }
 .newsletter-form button {
-    background-color: #282b5b;
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -449,7 +449,7 @@ main {
 .grid-item {
     text-align: center;
     padding: 10px;
-    background-color: #fca311;
+    background-color: var(--accent1-color);
     border-radius: 10px;
 }
 .grid-item img {
